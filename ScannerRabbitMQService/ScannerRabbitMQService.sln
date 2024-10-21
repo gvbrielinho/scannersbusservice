@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScannerRabbitMQService", "ScannerRabbitMQService\ScannerRabbitMQService.csproj", "{82E3E303-7583-48FC-98CA-735CF44E3559}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E3E303-7583-48FC-98CA-735CF44E3559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E3E303-7583-48FC-98CA-735CF44E3559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E3E303-7583-48FC-98CA-735CF44E3559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E3E303-7583-48FC-98CA-735CF44E3559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC2A1B58-D79F-4841-8090-8734629B3D1D}
+	EndGlobalSection
+EndGlobal

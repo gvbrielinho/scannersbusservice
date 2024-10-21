@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  scannerrabbitmqservice:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080:8080"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+
+  rabbitmq:
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+      - rabbitmq_log:/var/log/rabbitmq
+
+volumes:
+  rabbitmq_data:
+  rabbitmq_log:

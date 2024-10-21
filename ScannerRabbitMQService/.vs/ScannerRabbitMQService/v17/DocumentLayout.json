@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|c:\\users\\gabriel\\desktop\\scannerrabbitmqservice\\scannerrabbitmqservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|solutionrelative:scannerrabbitmqservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|c:\\users\\gabriel\\desktop\\scannerrabbitmqservice\\scannerrabbitmqservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|solutionrelative:scannerrabbitmqservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}|docker-compose.dcproj|c:\\users\\gabriel\\desktop\\scannerrabbitmqservice\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}|docker-compose.dcproj|c:\\users\\gabriel\\desktop\\scannerrabbitmqservice\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F56E7A5-33D1-4FD9-98A6-8CA134EEA0A4}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|c:\\users\\gabriel\\desktop\\scannerrabbitmqservice\\scannerrabbitmqservice\\services\\rabbitmqworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|solutionrelative:scannerrabbitmqservice\\services\\rabbitmqworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|c:\\users\\gabriel\\desktop\\scannerrabbitmqservice\\scannerrabbitmqservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82E3E303-7583-48FC-98CA-735CF44E3559}|ScannerRabbitMQService\\ScannerRabbitMQService.csproj|solutionrelative:scannerrabbitmqservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\Dockerfile",
+              "RelativeDocumentMoniker": "ScannerRabbitMQService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\Dockerfile",
+              "RelativeToolTip": "ScannerRabbitMQService\\Dockerfile",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-20T21:47:23.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T20:35:27.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\appsettings.json",
+              "RelativeDocumentMoniker": "ScannerRabbitMQService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\appsettings.json",
+              "RelativeToolTip": "ScannerRabbitMQService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T20:34:19.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-10-13T14:04:22.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RabbitMQWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\Services\\RabbitMQWorker.cs",
+              "RelativeDocumentMoniker": "ScannerRabbitMQService\\Services\\RabbitMQWorker.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\Services\\RabbitMQWorker.cs",
+              "RelativeToolTip": "ScannerRabbitMQService\\Services\\RabbitMQWorker.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAiwH4AAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T00:02:04.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\Program.cs",
+              "RelativeDocumentMoniker": "ScannerRabbitMQService\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel\\Desktop\\ScannerRabbitMQService\\ScannerRabbitMQService\\Program.cs",
+              "RelativeToolTip": "ScannerRabbitMQService\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwC4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T23:58:27.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

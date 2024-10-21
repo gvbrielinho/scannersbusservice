@@ -1,0 +1,39 @@
+version: '3.4'
+services:
+  scannerrabbitmqservice:
+    image: ${DOCKER_REGISTRY-}scannerrabbitmqservice
+    build:
+      context: .
+      dockerfile: ScannerRabbitMQService/Dockerfile
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USER=guest
+      - RABBITMQ_PASSWORD=guest
+      - RABBITMQ_VHOST=/
+      - RABBITMQ_SCANNER_QUEUE=scanner_data
+      - RABBITMQ_PACKAGE_QUEUE=package_data
+      - TZ=America/Argentina/Buenos_Aires
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "check_port_connectivity"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+networks:
+  default:
+    name: scanner-network

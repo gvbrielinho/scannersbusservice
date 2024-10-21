@@ -1,0 +1,82 @@
+name: dockercompose1949284291994585703
+services:
+  rabbitmq:
+    healthcheck:
+      test:
+        - CMD
+        - rabbitmq-diagnostics
+        - check_port_connectivity
+      timeout: 10s
+      interval: 30s
+      retries: 5
+    image: rabbitmq:3-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: rabbitmq_data
+        target: /var/lib/rabbitmq
+        volume: {}
+      - type: volume
+        source: rabbitmq_log
+        target: /var/log/rabbitmq
+        volume: {}
+  scannerrabbitmqservice:
+    build:
+      context: C:\Users\Gabriel\Desktop\ScannerRabbitMQService
+      dockerfile: ScannerRabbitMQService/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_PACKAGE_QUEUE: package_data
+      RABBITMQ_PASSWORD: guest
+      RABBITMQ_PORT: "5672"
+      RABBITMQ_SCANNER_QUEUE: scanner_data
+      RABBITMQ_USER: guest
+      RABBITMQ_VHOST: /
+      TZ: America/Argentina/Buenos_Aires
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - -f
+        - http://localhost:8080/health
+      timeout: 10s
+      interval: 30s
+      retries: 3
+    image: scannerrabbitmqservice
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Gabriel\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: scanner-network
+volumes:
+  rabbitmq_data:
+    name: dockercompose1949284291994585703_rabbitmq_data
+  rabbitmq_log:
+    name: dockercompose1949284291994585703_rabbitmq_log
